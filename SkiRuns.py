@@ -119,10 +119,10 @@ def areaName(newStr):
     #Check if it matches the regex
     if checkUrl(newStr):
         #Since it does, get the RESORTNAME and return it here: https://www.RESORTNAME.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx
-        regex = r"https://www.\w+.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
+        regex = r"https://www\.\w+\.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
         #Get the name of the resort
         #Get everything after the https://www. before the next /
-        resortName = re.search(r"https://www.(\w+).com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx", newStr).group(1)
+        resortName = re.search(r"https://www\.(\w+)\.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx", newStr).group(1)
 
 
         #Return the name of the resort
@@ -135,7 +135,7 @@ def checkUrl(url):
     #RESORTNAME can be any string
     #If it does, return true
     #If it doesn't, return false
-    regex = r"https://www.\w+.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
+    regex = r"https://www\.\w+\.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
     if re.match(regex, url):
         return True
     else:
