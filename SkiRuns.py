@@ -5,19 +5,23 @@ import csv
 import numpy as np
 from helpers import *
 from Parser import JSONParser
-import json
-# headers = {
-#         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36'}
-
+from pathlib import Path
 def main():
+
+    downloads_path = str(Path.home() / "Downloads")
     bcUrl = "https://www.beavercreek.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
     vailURL = "https://www.vail.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
-
-    bcOrVail = input("Would you like to see Beaver Creek or Vail? (bc/vail)")
-    if bcOrVail == 'bc':
-        data = getData(bcUrl)
+    newUrl = input("Enter the URL of the mountain you want to scrape. Make sure it is in the following format: https://www.RESORTNAME.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx: ")
+    if checkUrl(newUrl):
+        data = getData(newUrl)
     else:
-        data = getData(vailURL)
+        bcOrVail = input("The URL did not match. Would you like to see Beaver Creek or Vail? (bc/vail)")
+        if bcOrVail == 'bc':
+            data = getData(bcUrl)
+            newUrl = bcUrl
+        else:
+            data = getData(vailURL)
+            newUrl = vailURL
     # num_runs = input_string("How many runs would you like?")
     fileName = input("What would you like to name the RUNS file? Use __name__ for the name of the mountain. Use __num__ for the number of runs.")
 
@@ -38,14 +42,14 @@ def main():
         print("Percentage of black runs: ", skiArea.percentageBlack)
         print("Percentage of double black runs: ", skiArea.percentageDoubleBlack)
     #We now write the skiArea.runs to a file
-    with open(f'/Users/owen/Downloads/{fileName}', 'w', newline='') as csvfile:
+    with open(f'{downloads_path}{fileName}', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['id', 'name', 'difficulty', 'difficultyNumber', 'isopen', 'isgroomed', 'info', 'length', 'type', 'isTrailWork', 'area'])
         for run in skiArea.runs:
             writer.writerow([run.id, run.name, parseDif(run.difficulty), run.difficulty, run.isopen, run.isgroomed, run.info, run.length, run.type, run.isTrailWork, run.area])
         #Save the file
         csvfile.close()
-    with open(f'/Users/owen/Downloads/{liftName}', 'w', newline='') as csvfile:
+    with open(f'{downloads_path}{liftName}', 'w', newline='') as csvfile:
        writer = csv.writer(csvfile)
        #Do the chairlifts that were in the JSOn
        writer.writerow(['name', 'status', 'type', 'WaitTimeInMinutes', 'Capacity', 'OpenTime', 'CloseTime', 'Mountain'])
@@ -110,7 +114,27 @@ def areaName(newStr):
         return "Beaver Creek"
     elif newStr == "vail":
         return "Vail"
+
+    #Check if it matches the regex
+    if checkUrl(newStr):
+        #Since it does, get the RESORTNAME and return it here: https://www.RESORTNAME.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx
+        regex = r"https://www.\w+.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
+        #Get the name of the resort
+        resortName = regex.match(regex, newStr)
+        #Return the name of the resort
+        return resortName
+
+    return "Vail"
+
+def checkUrl(url):
+    #Using regex, check if it matches this: https://www.RESORTNAME.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx
+    #RESORTNAME can be any string
+    #If it does, return true
+    #If it doesn't, return false
+    regex = r"https://www.\w+.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
+    if regex.match(regex, url):
+        return True
     else:
-        return "Vail"
+        return False
 if __name__ == '__main__':
     main()
