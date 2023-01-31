@@ -22,7 +22,7 @@ python3 SkiRuns.py
 ## Parameter explaination
 * `newUrl` - This is the URL of the website which you want to scrape. Ensure that you pass in the entire URL, such as: https://www.vail.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx. The given URL will be checked against the following `Regex`:
 ```python
-r"https://www.\w+.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
+r"https://www\.\w+\.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
 ```
 * `fileName`: The name of the runs file. This does not have to include the extension `.csv`, as it will be added if necessary. Use `__name__` for the name of the mountain and `__num__` for the number of ski runs. This will be the name of the generated CSV file that is saved to your `Downloads`.
 * `liftName`: The name of the lifts file. This does not have to include the extension `.csv`, as it will be added if necessary. Use `__name__` for the name of the mountain and `__num__` for the number of chairlifts.
