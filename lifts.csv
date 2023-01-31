@@ -1,0 +1,34 @@
+name,status,type,WaitTimeInMinutes,Capacity,OpenTime,CloseTime,Mountain
+Avanti Express #2,Open,six,2,6,08:30,15:30,Vail Village
+Black Forest #27,Open,t-bar,,,08:30,15:30,Mid-Vail
+Born Free Express #8,Open,quad,1,4,08:30,15:30,Lionshead
+Cascade Village #20,Open,quad,,4,08:30,15:30,Lionshead
+Eagle Bahn Gondola #19,Open,gondola,3,12,08:30,15:30,Lionshead
+Earl's Express #38,Open,quad,4,4,10:00,14:30,Blue Sky Basin
+Elvis Bahn #25,Open,conveyor,,,08:30,15:30,Golden Peak
+Game Creek Express #7,Open,six,3,6,08:30,15:00,Game Creek Bowl
+Golden Peak T-Bar,Scheduled,t-bar,,2,08:30,15:30,Golden Peak
+Gondola One,Open,gondola,3,10,08:30,15:30,Vail Village
+Gopher Hill #12,Open,triple,,3,08:30,15:30,Golden Peak
+High Noon Express #5,Open,quad,1,4,09:00,15:00,Sun Up Bowl
+Highline Express #10,Open,quad,1,4,08:30,15:30,Golden Peak
+Lightning Coyote #18,Open,conveyor,,,08:30,15:30,Lionshead
+Lionshead Magic Carpet #34,Open,conveyor,,,08:30,15:30,Lionshead
+Little Eagle #15,Open,triple,,3,08:30,15:30,Lionshead
+Mongolia Platter #22,Open,t-bar,,1,09:00,14:45,Mongolia Bowl
+Mountaintop Express #4,Open,six,3,6,08:30,15:30,Mid-Vail
+Northwoods Express #11,Open,six,4,6,08:30,15:30,North East Bowl
+Orient Express #21,Open,quad,2,4,09:00,15:00,China Bowl
+Patty Bahn,Open,conveyor,,,10:00,14:30,Golden Peak
+Pete's Express #39,Open,quad,3,4,10:00,14:15,Blue Sky Basin
+Pride Express #26,Open,quad,2,4,08:30,15:30,Lionshead
+Rip's Ride Carpet #29,Open,conveyor,,,08:30,15:30,Golden Peak
+Riva Bahn Express #6,Open,quad,2,4,08:30,15:30,Golden Peak
+Skyline Express #37,Open,quad,1,4,10:00,14:30,Blue Sky Basin
+Sourdough Express #14,Open,quad,3,4,08:30,15:00,North East Bowl
+Sun Down Express #17,Open,quad,,4,09:00,15:00,Sun Down Bowl
+Sun Up Express #9,Open,quad,3,4,09:00,15:00,Sun Up Bowl
+Tea Cup Express #36,Open,quad,2,4,09:00,15:00,China Bowl
+Thunder Cat Carpet #35,Open,conveyor,,,08:30,15:30,Lionshead
+Wapiti Platter #24,Open,t-bar,,1,09:00,15:00,China Bowl
+Wildwood Express #3,Open,quad,2,4,08:30,15:30,Mid-Vail

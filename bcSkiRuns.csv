@@ -1,0 +1,165 @@
+id,name,difficulty,difficultyNumber,isopen,isgroomed,info,length,type,isTrailWork,area
+5654,Cresta,Blue,2,True,True,,0 (ft),1,True,Arrowhead
+4377,Cross Bow,Blue,2,True,False,,0 (ft),1,False,Arrowhead
+4381,Flint,Black,3,True,False,,0 (ft),1,False,Arrowhead
+4378,Golden Bear,Blue,2,True,True,,0 (ft),1,True,Arrowhead
+4379,Little Brave,Green,1,True,True,,0 (ft),1,True,Arrowhead
+4374,Piece O' Cake,Green,1,True,True,,0 (ft),1,True,Arrowhead
+4380,Pow Wow,Blue,2,True,False,,0 (ft),1,False,Arrowhead
+4375,Stirrup,Green,1,True,True,,0 (ft),1,True,Arrowhead
+4382,Tomahawk,Black,3,True,False,,0 (ft),1,False,Arrowhead
+4383,Wapiti,Black,3,True,False,,0 (ft),1,False,Arrowhead
+4387,Cabin Fever,Blue,2,True,True,,0 (ft),1,True,Bachelor Gulch
+5777,Coyote Glade,Blue,2,True,False,,0 (ft),1,False,Bachelor Gulch
+4388,Grubstake,Blue,2,True,False,,0 (ft),1,False,Bachelor Gulch
+4389,Gunder's,Blue,2,True,True,,0 (ft),1,True,Bachelor Gulch
+5640,Intertwine,Green,1,True,True,,0 (ft),1,True,Bachelor Gulch
+4390,Maverick,Blue,2,True,True,,0 (ft),1,True,Bachelor Gulch
+4391,Roughlock,Blue,2,True,True,,0 (ft),1,True,Bachelor Gulch
+4386,Sawbuck,Green,1,True,True,,0 (ft),1,True,Bachelor Gulch
+5776,Sourdough’s Slide,Blue,2,True,False,,0 (ft),1,False,Bachelor Gulch
+4392,Springtooth,Blue,2,True,False,,0 (ft),1,False,Bachelor Gulch
+4385,Leav the Beav,Green,1,True,True,,0 (ft),1,True,Beaver Creek Landing
+4450,1876,Blue,2,True,False,,0 (ft),1,False,Beaver Creek Lower
+5773,4 Get About It,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4460,Addy's,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4451,Assay,Blue,2,True,False,,0 (ft),1,False,Beaver Creek Lower
+4452,Barrel Stave,Blue,2,True,False,,0 (ft),1,False,Beaver Creek Lower
+4453,Bear Trap,Blue,2,True,True,,0 (ft),1,True,Beaver Creek Lower
+4445,Beginner Area Ch. #2,Green,1,True,True,,0 (ft),1,True,Beaver Creek Lower
+5775,Big Bark/Little Bark,Blue,2,True,False,,0 (ft),1,False,Beaver Creek Lower
+4461,Bootleg,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4462,Buckboard,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4454,Centennial - Lower,Blue,2,True,True,,0 (ft),1,True,Beaver Creek Lower
+4463,Centennial - Willy's Face,Black,3,True,True,,0 (ft),1,True,Beaver Creek Lower
+4446,Cinch - Lower,Green,1,True,True,,0 (ft),1,True,Beaver Creek Lower
+5771,Corkscrew,Blue,2,True,False,,0 (ft),1,False,Beaver Creek Lower
+4447,Dally - Lower,Green,1,True,True,,0 (ft),1,True,Beaver Creek Lower
+4448,Dally - Upper,Green,1,True,True,,0 (ft),1,True,Beaver Creek Lower
+4465,Fools Gold,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4464,Gary’s,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4456,Gold Dust,Blue,2,True,True,,0 (ft),1,True,Beaver Creek Lower
+4457,Gold Rush,Blue,2,True,False,,0 (ft),1,False,Beaver Creek Lower
+5770,Golden Eagle Connector,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4466,Harrier - Lower,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4458,Harrier - Upper,Blue,2,True,True,,0 (ft),1,True,Beaver Creek Lower
+4449,Haymeadow,Green,1,True,True,,0 (ft),1,True,Beaver Creek Lower
+5772,Heads Up,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4467,Helmut's,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4459,Latigo,Blue,2,True,True,,0 (ft),1,True,Beaver Creek Lower
+4468,Moonshine,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+5774,Stickline,Black,3,True,False,,0 (ft),1,False,Beaver Creek Lower
+4455,Toyota Race Center,Blue,2,True,True,,0 (ft),1,True,Beaver Creek Lower
+4493,Booth Gardens,Green,1,True,False,,0 (ft),1,False,Beaver Creek Upper
+4494,Centennial - Hohum,Green,1,True,True,,0 (ft),1,True,Beaver Creek Upper
+4504,Centennial - Spruce Face,Black,3,True,True,,0 (ft),1,True,Beaver Creek Upper
+4495,Cinch - Upper,Green,1,True,True,,0 (ft),1,True,Beaver Creek Upper
+4505,Gosawk Connector,Black,3,True,False,,0 (ft),1,False,Beaver Creek Upper
+4502,Jack Rabbit Alley,Blue,2,True,False,,0 (ft),1,False,Beaver Creek Upper
+4496,Mystic Island,Green,1,True,False,,0 (ft),1,False,Beaver Creek Upper
+4507,Park 101,Green,5,True,True,,0 (ft),1,True,Beaver Creek Upper
+4497,Piney,Green,1,True,True,,0 (ft),1,True,Beaver Creek Upper
+4498,Powell,Green,1,True,True,,0 (ft),1,True,Beaver Creek Upper
+4499,Red Buffalo,Green,1,True,True,,0 (ft),1,True,Beaver Creek Upper
+4506,Sheephorn,Black,3,True,False,,0 (ft),1,False,Beaver Creek Upper
+4503,Sheephorn - Escape,Blue,2,True,True,,0 (ft),1,True,Beaver Creek Upper
+4500,Sheephorn - Upper,Green,1,True,False,,0 (ft),1,False,Beaver Creek Upper
+4501,Solitude,Green,1,True,True,,0 (ft),1,True,Beaver Creek Upper
+4508,Zoom Room,Green,1,True,True,,0 (ft),1,True,Beaver Creek Upper
+4407,Golden Eagle - Lower,Black,3,True,False,,0 (ft),1,False,Birds of Prey
+4410,Golden Eagle - Upper,Double Black,4,True,False,,0 (ft),1,False,Birds of Prey
+4409,Kestrel,Black,3,True,False,,0 (ft),1,False,Birds of Prey
+4411,Peregrine - Lower,Double Black,4,True,False,,0 (ft),1,False,Birds of Prey
+4412,Peregrine - Middle,Double Black,4,True,False,,0 (ft),1,False,Birds of Prey
+4413,Peregrine - Upper,Double Black,4,True,False,,0 (ft),1,False,Birds of Prey
+4406,Redtail,Blue,2,True,True,,0 (ft),1,True,Birds of Prey
+4415,Borders Loop,Blue,2,True,False,,0 (ft),1,False,Elkhorn
+4416,Gee,Blue,2,True,False,,0 (ft),1,False,Elkhorn
+4417,Haw,Blue,2,True,False,,0 (ft),1,False,Elkhorn
+4418,Home Run,Blue,2,True,False,,0 (ft),1,False,Elkhorn
+4419,Settlers Way,Blue,2,True,False,,0 (ft),1,False,Elkhorn
+4426,Bald Eagle,Double Black,4,True,False,,0 (ft),1,False,Grouse Mountain
+4427,Falcon Park,Double Black,4,True,False,,0 (ft),1,False,Grouse Mountain
+4428,Osprey,Double Black,4,True,False,,0 (ft),1,False,Grouse Mountain
+4429,Ptarmigan,Double Black,4,True,False,,0 (ft),1,False,Grouse Mountain
+4423,Raven Ridge - Lower,Black,3,True,False,,0 (ft),1,False,Grouse Mountain
+4424,Raven Ridge - Upper,Black,3,True,False,,0 (ft),1,False,Grouse Mountain
+5767,Royal Elk Glade,Black,3,True,False,,0 (ft),1,False,Grouse Mountain
+4430,Ruffed Grouse,Double Black,4,True,False,,0 (ft),1,False,Grouse Mountain
+4425,Screech Owl,Black,3,True,False,,0 (ft),1,False,Grouse Mountain
+4433,BC Expressway - Lower,Green,1,True,True,,0 (ft),1,True,Larkspur
+4434,BC Expressway - Upper,Green,1,True,True,,0 (ft),1,True,Larkspur
+4435,Blue Bell,Blue,2,True,False,,0 (ft),1,False,Larkspur
+4436,Larkspur - Lower,Blue,2,True,True,,0 (ft),1,True,Larkspur
+4437,Larkspur - Upper,Blue,2,True,True,,0 (ft),1,True,Larkspur
+4440,Loco,Black,3,True,False,,0 (ft),1,False,Larkspur
+4441,Lupine,Black,3,True,False,,0 (ft),1,False,Larkspur
+4438,Paintbrush,Blue,2,True,False,,0 (ft),1,False,Larkspur
+4439,Primrose to Strawberry Park,Blue,2,True,True,,0 (ft),1,True,Larkspur
+4442,Shooting Star,Black,3,True,False,,0 (ft),1,False,Larkspur
+5768,Three Tree Gully,Black,3,True,False,,0 (ft),1,False,Larkspur
+4443,Yarrow,Black,3,True,False,,0 (ft),1,False,Larkspur
+6927,Affinity,Green,1,True,False,,0 (ft),1,False,McCoy Park
+6930,Bliss,Green,1,True,True,,0 (ft),1,True,McCoy Park
+6937,Discovery,Blue,2,True,False,,0 (ft),1,False,McCoy Park
+6929,Enchantment,Green,1,True,False,,0 (ft),1,False,McCoy Park
+6935,Endeavor,Blue,2,True,True,,0 (ft),1,True,McCoy Park
+6924,Exploration,Green,1,True,True,,0 (ft),1,True,McCoy Park
+6936,Freedom,Blue,2,True,False,,0 (ft),1,False,McCoy Park
+6931,Harmony,Green,1,True,False,,0 (ft),1,False,McCoy Park
+6926,Journey,Green,1,True,True,,0 (ft),1,True,McCoy Park
+6923,Kinship,Green,1,True,False,,0 (ft),1,False,McCoy Park
+6940,Reflection,Green,1,True,False,,0 (ft),1,False,McCoy Park
+6939,Sanctuary,Green,1,True,False,,0 (ft),1,False,McCoy Park
+6932,Serenity,Green,1,True,False,,0 (ft),1,False,McCoy Park
+6925,Splendor,Green,1,True,False,,0 (ft),1,False,McCoy Park
+6928,Tranquility,Green,1,True,False,,0 (ft),1,False,McCoy Park
+6933,Unwind,Green,1,True,True,,0 (ft),1,True,McCoy Park
+6934,Venture,Green,1,True,False,,0 (ft),1,False,McCoy Park
+5652,Anderson's Alley,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5639,Bear Paw,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5637,Bedstraw,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5635,Borders,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5638,Charter,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5655,Cold Snap,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5653,Creekside,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5649,Easy Come Easy Go,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5648,Elkhorn,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5650,Everkrisp,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5651,Ford's Way,Green,1,True,True,,0 (ft),1,True,Resort Skiways
+5665,Highlands,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5666,Holden,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5667,Homefire,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5641,Lamplighter,Green,1,True,True,,0 (ft),1,True,Resort Skiways
+5663,Leav the Beav,Green,1,True,True,,0 (ft),1,True,Resort Skiways
+5664,Legacy,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5659,Maverick,Green,1,True,True,,0 (ft),1,True,Resort Skiways
+5660,McCoy's,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5661,Meadows,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5662,Meander,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5642,Pines/Chateau,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5656,Rhubarb,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5657,Ridge Rider,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5658,Ridgepoint,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5647,Second Chance,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5643,Solitaire,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5646,Tall Timber,Green,1,True,False,,0 (ft),1,False,Resort Skiways
+5644,Wampum,Green,1,True,True,,0 (ft),1,True,Resort Skiways
+4473,Bridle,Green,1,True,True,,0 (ft),1,True,Rose Bowl
+4474,C - Prime,Blue,2,True,False,,0 (ft),1,False,Rose Bowl
+4476,Cataract,Black,3,True,False,,0 (ft),1,False,Rose Bowl
+4480,Ripperoo's Retreat,Green,1,True,False,,0 (ft),1,False,Rose Bowl
+4477,Ripsaw,Black,3,True,False,,0 (ft),1,False,Rose Bowl
+4478,Spider,Black,3,True,False,,0 (ft),1,False,Rose Bowl
+4479,Stone Creek Chutes,Double Black,4,True,False,,0 (ft),1,False,Rose Bowl
+4475,Stone Creek Meadows,Blue,2,True,True,,0 (ft),1,True,Rose Bowl
+4486,Bitterroot,Blue,2,True,True,,0 (ft),1,True,Strawberry Park
+4482,Intertwine - Lower,Green,1,True,True,,0 (ft),1,True,Strawberry Park
+4483,Intertwine - Upper,Green,1,True,True,,0 (ft),1,True,Strawberry Park
+4484,Middle Primrose,Green,1,True,True,,0 (ft),1,True,Strawberry Park
+4487,Overshot,Blue,2,True,True,,0 (ft),1,True,Strawberry Park
+4488,President Ford's - Lower,Blue,2,True,True,,0 (ft),1,True,Strawberry Park
+4490,President Ford's - Upper,Black,3,True,False,,0 (ft),1,False,Strawberry Park
+4485,Primrose,Green,1,True,True,,0 (ft),1,True,Strawberry Park
+4489,Stacker - Lower,Blue,2,True,True,,0 (ft),1,True,Strawberry Park
+4491,Stacker - Upper,Black,3,True,False,,0 (ft),1,False,Strawberry Park

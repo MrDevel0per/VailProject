@@ -1,0 +1,26 @@
+name,status,type,WaitTimeInMinutes,Capacity,OpenTime,CloseTime,Mountain
+Arrow Bahn Express,Open,quad,2,4,08:30,15:30,Arrowhead
+Bachelor Gulch Express,Open,quad,3,4,08:30,15:30,Bachelor Gulch
+Bibber Bahn,Open,conveyor,,1,08:30,15:30,Beaver Creek Lower
+Birds of Prey Express,Open,quad,0,4,08:30,15:30,Birds of Prey
+Centennial Express,Open,gondola,3,12,08:30,16:00,Beaver Creek Lower
+Cinch Express,Open,quad,2,4,08:30,15:30,Beaver Creek Upper
+Elkhorn Lift,Open,triple,,3,08:30,15:30,Elkhorn
+Grouse Mountain Express,Open,quad,1,4,08:30,15:30,Grouse Mountain
+Haymeadow Express,Open,gondola,2,8,08:30,16:00,Beaver Creek Lower
+Highlands Lift,Open,double,,2,08:30,15:30,Beaver Creek Lower
+Jitterbug,Open,conveyor,,1,08:30,15:30,Beaver Creek Lower
+Larkspur Express,Open,quad,1,4,08:30,15:30,Larkspur
+Lower BC Mtn Express,Open,quad,3,4,08:30,15:30,Bachelor Gulch
+Magic Carpet,Open,conveyor,,1,08:30,15:30,Beaver Creek Lower
+McCoy Park Express,Open,quad,0,4,08:30,15:00,McCoy Park
+Red Buffalo Express,Open,quad,1,4,09:00,15:30,Beaver Creek Upper
+Reunion Lift,Open,quad,0,4,08:30,15:00,McCoy Park
+Ritz Bahn,Open,conveyor,,1,08:30,15:30,Bachelor Gulch
+Riverfront Express Gondola,Open,gondola,,8,08:30,17:00,Beaver Creek Landing
+Rose Bowl Express,Open,quad,1,4,08:30,15:00,Rose Bowl
+Snowflake,Open,conveyor,,1,08:30,15:30,Beaver Creek Lower
+Strawberry Park Express,Open,quad,3,4,08:30,16:00,Strawberry Park
+Trail Rider,Open,conveyor,,1,08:30,15:30,Beaver Creek Lower
+Upper BC Mtn Express,Open,quad,1,4,08:30,15:30,Bachelor Gulch
+Wagon Train,Open,conveyor,,1,08:30,15:30,Beaver Creek Lower
