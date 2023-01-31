@@ -5,6 +5,7 @@ import csv
 import numpy as np
 from helpers import *
 from Parser import JSONParser
+import re
 from pathlib import Path
 def main():
 
@@ -23,10 +24,10 @@ def main():
             data = getData(vailURL)
             newUrl = vailURL
     # num_runs = input_string("How many runs would you like?")
-    fileName = input("What would you like to name the RUNS file? Use __name__ for the name of the mountain. Use __num__ for the number of runs.")
+    fileName = input("What would you like to name the **RUNS** file? Use __name__ for the name of the mountain. Use __num__ for the number of runs.")
 
     script = parseScript(data)
-    skiArea = JSONParser().parseJSON(script, areaName(bcOrVail))
+    skiArea = JSONParser().parseJSON(script, areaName(newUrl))
     liftName = parseFileName(input(
         "What would you like to name the **LIFTS** file? Use __name__ for the name of the mountain. Use __num__ for the number of lifts."),
                              skiArea.name, len(skiArea.lifts))
@@ -106,7 +107,7 @@ def parseFileName(input_string, name, run_number):
     input_string = input_string.replace("__num__", str(run_number))
     if not input_string.endswith(".csv"):
         input_string += ".csv"
-    print("Input string: ", input_string)
+    # print("Input string: ", input_string)
     return input_string
 
 def areaName(newStr):
@@ -120,7 +121,10 @@ def areaName(newStr):
         #Since it does, get the RESORTNAME and return it here: https://www.RESORTNAME.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx
         regex = r"https://www.\w+.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
         #Get the name of the resort
-        resortName = regex.match(regex, newStr)
+        #Get everything after the https://www. before the next /
+        resortName = re.search(r"https://www.(\w+).com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx", newStr).group(1)
+
+
         #Return the name of the resort
         return resortName
 
@@ -132,7 +136,7 @@ def checkUrl(url):
     #If it does, return true
     #If it doesn't, return false
     regex = r"https://www.\w+.com/the-mountain/mountain-conditions/terrain-and-lift-status.aspx"
-    if regex.match(regex, url):
+    if re.match(regex, url):
         return True
     else:
         return False
