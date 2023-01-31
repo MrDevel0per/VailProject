@@ -1,0 +1,3 @@
+{"Name":"Pete's Express #39","Status":"Open","Type":"quad","SortOrder":0,"Mountain":"Blue Sky Basin","WaitTimeInMinutes":3,"Capacity":4,"OpenTime":"10:00","CloseTime":"14:15"},
+{"Name":"Earl's Express #38","Status":"Open","Type":"quad","SortOrder":1,"Mountain":"Blue Sky Basin","WaitTimeInMinutes":4,"Capacity":4,"OpenTime":"10:00","CloseTime":"14:30"},
+{"Name":"Skyline Express #37","Status":"Open","Type":"quad","SortOrder":2,"Mountain":"Blue Sky Basin","WaitTimeInMinutes":1,"Capacity":4,"OpenTime":"10:00","CloseTime":"14:30"}
