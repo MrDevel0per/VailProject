@@ -43,6 +43,8 @@ def main():
         print("Percentage of black runs: ", skiArea.percentageBlack)
         print("Percentage of double black runs: ", skiArea.percentageDoubleBlack)
     #We now write the skiArea.runs to a file
+    #Remove last nine characters of downloads_path
+    downloads_path = downloads_path[:-9]
     with open(f'{downloads_path}{fileName}', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['id', 'name', 'difficulty', 'difficultyNumber', 'isopen', 'isgroomed', 'info', 'length', 'type', 'isTrailWork', 'area'])
