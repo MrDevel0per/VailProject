@@ -25,7 +25,7 @@ def main():
             newUrl = vailURL
     # num_runs = input_string("How many runs would you like?")
     fileName = input("What would you like to name the **RUNS** file? Use __name__ for the name of the mountain. Use __num__ for the number of runs.")
-
+    
     script = parseScript(data)
     skiArea = JSONParser().parseJSON(script, areaName(newUrl))
     liftName = parseFileName(input(
@@ -99,7 +99,7 @@ def parseDif(num):
     elif num == 4:
         return "Double Black"
     else:
-        return "Green"
+        return "Terrain Park or Other"
 
 
 def parseFileName(input_string, name, run_number):

@@ -25,8 +25,6 @@ class JSONParser:
             newRun = self.parseRun(run, area)
             runs.append(newRun)
             print(newRun.name)
-            if newRun.name == 'Golden Peak Terrain Park - Middle':
-                print(newRun.difficulty)
         return runs
 
     def parseRun(self, run, area):
